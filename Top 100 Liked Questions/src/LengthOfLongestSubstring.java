@@ -3,6 +3,7 @@ import java.util.Set;
 
 public class LengthOfLongestSubstring {
 	/**
+	 *  滑动窗口
 	 *  使用快慢两个指针,慢指针用来遍历,快指针用于找最长字串
 	 */
 	public int solution(String s) {
