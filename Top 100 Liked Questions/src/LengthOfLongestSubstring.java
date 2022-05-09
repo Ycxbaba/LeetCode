@@ -1,10 +1,20 @@
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * https://leetcode.cn/problems/longest-substring-without-repeating-characters/
+ */
 public class LengthOfLongestSubstring {
+
+	public static void main(String[] args) {
+
+	}
+
 	/**
 	 *  滑动窗口
 	 *  使用快慢两个指针,慢指针用来遍历,快指针用于找最长字串
+	 *  时间复杂度 n
+	 *  空间复杂度 所有出现的字符个数
 	 */
 	public int solution(String s) {
 		Set<Character> set = new HashSet<>();

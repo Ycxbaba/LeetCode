@@ -1,4 +1,12 @@
+/**
+ * https://leetcode.cn/problems/median-of-two-sorted-arrays/
+ */
 public class FindMedianSortedArrays {
+
+	public static void main(String[] args) {
+
+	}
+	//时间复杂度 log(m+n) 空间复杂度 1
 	public double solution1(int[] nums1, int[] nums2) {
 		int length1 = nums1.length, length2 = nums2.length;
 		int totalLength = length1 + length2;

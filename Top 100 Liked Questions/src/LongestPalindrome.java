@@ -1,3 +1,6 @@
+/**
+ * https://leetcode.cn/problems/longest-palindromic-substring/
+ */
 public class LongestPalindrome {
 
 	public static void main(String[] args) {
@@ -6,6 +9,7 @@ public class LongestPalindrome {
 	}
 
 	//动态规划
+	//时间复杂度 n*n  空间复杂度 n*n
 	public String solution1(String s) {
 		int n = s.length();
 		int max = 1;
@@ -42,6 +46,7 @@ public class LongestPalindrome {
 	}
 
 	//中心扩散
+	//时间复杂度 n*n 空间复杂度 1
 	public String solution2(String s){
 		int max = 1;
 		int begin = 0;

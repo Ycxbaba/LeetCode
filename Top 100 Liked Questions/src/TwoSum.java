@@ -1,6 +1,13 @@
 import java.util.HashMap;
 
+/**
+ * https://leetcode.cn/problems/two-sum/
+ */
 public class TwoSum {
+
+	public static void main(String[] args) {
+
+	}
 
 	//暴力搜素
 	//空间复杂度 O(1)
