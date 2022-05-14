@@ -59,6 +59,8 @@ public class Trap {
 		return ans;
 	}
 
+	//单调栈
+	//时间复杂度 n 空间复杂度 n
 	public int solution3(int[] height){
 		int ans = 0, current = 0;
 		Deque<Integer> stack = new LinkedList<Integer>();
