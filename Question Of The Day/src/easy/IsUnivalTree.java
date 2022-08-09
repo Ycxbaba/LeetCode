@@ -1,7 +1,7 @@
 package easy;
 
 
-import entity.TreeNode;
+import Tree.entity.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package entity;
+package Tree.entity;
 
 public class TreeNode {
 	public int val;

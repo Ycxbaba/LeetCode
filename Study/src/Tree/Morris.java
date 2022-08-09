@@ -1,9 +1,6 @@
-package traversal;
+package Tree;
 
-import entity.TreeNode;
-
-import java.util.ArrayList;
-import java.util.List;
+import Tree.entity.TreeNode;
 
 /**
  * Morris 利用树的大量空指针 来遍历二叉数的一种算法 时间复杂度为 n 空间复杂度为 1
